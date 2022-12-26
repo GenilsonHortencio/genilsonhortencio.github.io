@@ -3,7 +3,7 @@ body {
 	font: 85% arial, hevetica, sans-serif;
 	text-align: center;
 	color: #333;
-	background-image: url(imagens/fundo.png) ;
+	background-image: url(fundo.png) ;
 	} 
     a:link { color: #B52C07; }
     a:visited { color: #b93411; }
