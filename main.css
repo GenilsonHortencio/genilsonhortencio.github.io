@@ -1,0 +1,141 @@
+body {
+	padding: 0;
+	font: 85% arial, hevetica, sans-serif;
+	text-align: center;
+	color: #333;
+	background-image: url(imagens/fundo.png) ;
+	} 
+    a:link { color: #B52C07; }
+    a:visited { color: #b93411; }
+    a:focus { color: #000; }
+    a:hover { color: #7d8206; }
+    a:active { color: red; }
+    h1, h2, h3, h4, h5, h6 { margin: 0 0 .5em; }
+    
+    h2 {
+        color: #B52C07;
+        font: 140% georgia, times, "times new roman", serif;
+        }
+    
+    h2 a { text-decoration: none; }
+    
+    h3 {
+        color: #7d8206;
+        font: 110% georgia, times, "times new roman", serif;
+        }  
+        
+#container {
+    margin: 1em auto;
+    width: 100%;
+    text-align: left;
+    background: #ffffff;
+    border: 1px solid #676767;
+}     
+#header {
+height: 40px;
+width: 100%;
+position: relative;
+background: #f07818;
+}
+        
+#header h1 {
+    position: absolute;
+    float:center;
+    color: #fff;
+}
+        
+#skipmenu {
+            position: absolute;
+            left: 0;
+            top: 5px;
+            width: 645px;
+            text-align: right;
+            }
+        
+#skipmenu a {
+        color: #555;
+        text-decoration: none;
+        }
+#mainnav {
+   background: #181848;
+   color: #ffffff;  
+   padding: 20px 0;
+   margin-bottom: 60px;
+    }
+    #mainnav ul {
+        margin: 0 20px;
+        padding: 0;
+        list-style-type: none;
+            }
+        
+        #mainnav li {
+            display: inline;
+            padding: 0 10px;
+            border-right: 1px solid #C4C769;
+            }
+        #mainnav li a {
+            text-decoration: none;
+            color: #ffffff;
+            }        
+        #mainnav li a:hover {
+            text-decoration: none;
+            color: #fff;
+            background-color: #ffffff;
+            }
+        
+#menu {
+    float: right;
+    width: 165px;
+    border-left: 1px solid #C5C877;
+    padding-left: 15px;
+            }
+        
+#menu ul {
+    margin: 1em 0;
+    padding: 0;
+            }
+#menu ul li {
+    margin: 0 0 1em;
+    padding: 0;
+    list-style-type: none;
+            }        
+#contents {
+    float: left;
+    width: 430px;
+    margin: 0 0 0 20px;
+            }
+        
+#contents p { line-height: 165%; }
+.blogentry { border-bottom: 1px solid #C5C877; }
+        
+.blogentry ul {
+    text-align: justify;
+    margin: 1em 0;
+    padding: 0;
+    font-size: 95%;
+}
+        
+.blogentry li {
+    list-style-type: none;
+    display: inline;
+    margin: 0;
+    padding: 0 0 0 7px;
+    }
+        
+.logo {
+    float: center;
+    padding: 0 0 0 0;
+    margin: 0 0 20px 20px;
+    }
+.perfil {
+    float: left;
+    margin: 5px;
+}
+#footer {
+    clear: both;
+    color:#ffffff;
+    text-align: center;
+    font-size: 90%;
+    background:#181848;
+    padding: 5px;
+ }
